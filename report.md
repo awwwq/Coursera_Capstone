@@ -21,41 +21,41 @@ I extracted data of California from the whole GDP per capita data , then combine
 
 result dataframe looks like below. 
 
-![image-20200423195252658](./df_california.png)
+![image-20200423195252658](images/df_california.png)
 
 I examined that what was the frequency of personal income in different ranges, then plot a histogram to visualize as below.
 
-![](hist.png)
+![](images/hist.png)
 
 I used library Folium to create a choropleth map to visualize the level of personal income over the  California.
 
-![](chorowithoutmark.png)
+![](images/chorowithoutmark.png)
 
 I leveraged Foursquare API to get Venues data around each county, for the sake of big area, I set the radius to 10km.And it resulted like below.
 
-![](venues.png)
+![](images/venues.png)
 
 I counted the results. As the graph below show, approximately third of all counties get 100 returned results. For the sake of big area and limit of Foursquare API Calls, it's hard to get all venues.
 
-![](resultcount.png)
+![](images/resultcount.png)
 
 In summary of results Foursquare returned, I created a table showing top 10 category of venues of each county as below.
 
-![](top10venues.png)
+![](images/top10venues.png)
 
 We have some common venue categories in boroughs. In this reason I used k-means to cluster the counties. K-Means algorithm is one of the most common and fast cluster method. 
 
 And I used Elbow method to select the optimal K=7.
 
-![](optimalk.png)
+![](images/optimalk.png)
 
 Then I merged cluster label, top 10 venues with origin table.
 
-![](merged.png)
+![](images/merged.png)
 
 I examined the number of 1st Most Common Venue in each cluster.
 
-![](clusters.png)
+![](images/clusters.png)
 
 Then I defined each cluster as follows:
 
@@ -82,11 +82,11 @@ And labeled consuming ability as below:
 
 Finally, I merged those labels with origin dataframe.
 
-![](final.png)
+![](images/final.png)
 
 And visualized it as choropleth map with cluster labels superimposed on it.
 
-![](finalchoro.png)
+![](images/finalchoro.png)
 
 #### 4. Discussion
 
