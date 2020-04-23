@@ -102,7 +102,7 @@ In this project, I analyzed type and personal income of counties in California. 
 
 #### References:
 
-[1] https://en.wikipedia.org/wiki/California
-[2] https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas
-[3] https://developer.foursquare.com/docs/places-api/
+[1] https://en.wikipedia.org/wiki/California  
+[2] https://www.bea.gov/data/income-saving/personal-income-county-metro-and-other-areas  
+[3] https://developer.foursquare.com/docs/places-api/  
 [4] https://raw.githubusercontent.com/codeforamerica/click_that_hood/master/public/data/california-counties.geojson
